@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <title>Çağla Mıdıklı Wep Page</title>
+
+    <head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link href='https://fonts.googleapis.com/css?family=UnifrakturMaguntia' rel='stylesheet'>
+    
+        <style>
+            h1{
+                text-shadow: 2px 2px rgb(60, 19, 118);
+                text-align: right;
+                font-size: 25px;
+                font-family: "Sofia", sans-serif;
+                margin-right: 25px;
+                margin-top: 0px;
+
+            }
+     
+            body{background-color: rgb(100, 36, 163);
+            }
+
+            h3{
+                text-align: center;
+                font-size: 80px;
+            }
+
+
+            #top {
+
+                 background: url('ün.png');
+                 background-color: rgb(100, 36, 163);
+                  background-repeat: no-repeat;
+                  background-size: 60px 60px;
+                  background-position: right top ;
+                  padding: 7px 40px;
+                margin: 10px 0px;
+}               
+
+            #myself {
+                background-color: rgb(202, 44, 70);
+                background-image: url('foto3.jpg');
+                background-repeat: no-repeat;
+                  background-size: 550px 600px;
+                  background-position: right top ;
+                  padding: 7px 40px;
+                margin: 10px 10px;
+                background-position-x: right;
+                background-position-y:center ;
+                
+            }
+
+            #school{
+                background-color: rgb(210, 210, 90);
+           display: flex;
+                flex-flow: row;     
+                height: 100%;
+                padding: 7px 40px;
+                margin: 10px 0px;
+                font-family: "Brush Script MT" , cursive;
+                
+
+            }
+
+            #works{
+                background-color: rgb(46, 196, 93);
+                height: 100%;
+                padding: 7px 40px;
+                margin: 10px 0px;
+                font-family: "Brush Script MT" , cursive;
+                font-size: xx-large;
+            }
+
+            #communication{
+                background-color: black;
+                color: aliceblue;
+            }
+
+
+            .row{
+                display: flex;
+                
+
+            }
+
+            .container {
+                 position: relative;
+                 
+                 margin: 1px;
+                  float: left;
+                 
+}
+
+        
+
+            .image {
+                 display: block;
+                 width: 470px;
+                 height: 450px;
+
+                
+}
+            .logo{
+                width: 100px;
+                height: 100px;
+                
+                  margin-left: 300px;
+               
+
+
+            }
+
+
+            .overlay {
+              position: absolute;
+             bottom: 100%;
+             left: 0;
+             right: 0;
+    
+             overflow: hidden;
+             width: 100%;
+             height: 0;
+             transition: .5s ease;
+}
+
+             .container:hover .overlay {
+                bottom: 0;
+                height: 100%;
+                }
+                .container:hover .image {
+                    opacity: 50%;
+                }
+
+                .text {
+                white-space: nowrap; 
+                color: black;
+                font-size: 23px;
+                position: absolute;
+                overflow: hidden;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                -ms-transform: translate(-50%, -50%);
+                }
+  
+                h3{
+                display: flex;
+                flex-flow: column;
+                font-size: 40px;
+                font-family: "Brush Script MT" , cursive;
+                background-color:  rgb(210, 210, 90);
+                margin: 20px 5px;
+                padding-right: 20PX;
+                
+                
+            }
+
+            .btn-group .button {
+                background-color: rgb(100, 36, 163); /* Green */
+                border: rgba(0, 0, 256, 0.4);
+                color: white;
+                padding: 7px 20px;
+                margin: 10px 0px;
+                text-align: center;
+                text-decoration: none;
+                
+                font-size: 14px;
+  
+                float: left;
+}
+
+            .btn-group .button:not(:last-child) {
+                 border-right: none; /* Prevent double borders */
+}
+
+            .btn-group .button:hover {
+                background-color: rgb(100, 27, 100);
+}
+  
+            .com{
+                color: white;
+                text-align: right;
+                font-style: italic;
+                font-size: 20px;
+            }
+            .job {
+  column-count: 3;
+  column-gap: 40px;
+  column-rule-style: solid;
+  column-rule-width: 1px;
+  column-rule-color: rgb(1, 149, 28);
+}
+
+
+        </style>
+
+    </head>
+    <body >
+        <header >
+            <section>
+            <div  class="btn-group">
+                
+                <a button class="button" href="#myself">Myself</button></a>
+                
+                <a button class="button" href="#school" >Schools</button></a>
+                <a  href="#works">
+                <button class="button" href="#works">Works</button></a>
+                <a href="#communication">
+                <button class="button" href="communication">Communications</button></a>
+                
+            
+              </div>
+           </section>
+           <h1>Çağla Mıdıklı Portfolio</h1>
+             
+        </header> 
+
+        <section id="myself" style=" background-attachment: fixed;">
+            <p style="font-size: 45px; font-family: 'UnifrakturMaguntia';">“Siz kendinize inanın, başkaları <br>da size inanacaktır.”
+                <br>
+                <div style="text-align: right; margin-right:17cm;font-size: 45px; font-family: 'UnifrakturMaguntia';"><strong > Wolfgang von Goethe</strong></div></p>
+            
+            <h2 style="font-size: 50px;font-family: 'Sofia',sans-serif ;">Myself</h2>
+            <p style="font-size: 30px; font-family: 'Sofia',sans-serif;">
+                Hello, I'm Çağla Mıdıklı,
+                a frontend developer
+                    & designer currently
+                   <br> based somewhere.<br> </p>
+                <p style="font-size: 30px; font-family: 'Sofia',sans-serif;"> <strong> Coordinator (September 2021 – Present)<br></strong>
+                    Itu ACM Student Chapter Istanbul, TR<br>
+                    • Worked in sponsorship and organization of an algorithm competition<br> named ”AlgoComp 2022” that has over 1000
+                    participants<br>
+                    • Moderated online events on Zoom<br>
+                    • Took part in organizing an orientation event for newcomers to our <br>department<br>
+                    • Planned technical visits to software companies.<br>
+                    <strong>Event And Sponsorship Teams Member <br></strong>
+                    Itu ACM Student Chapter Istanbul, TR<br>
+                    • Contacted computer engineers graduated from ITU and took part in <br>the organization of an event named
+                    Alumnights<br>
+                    <strong>Software Team Member<br></strong>
+                    Istanbul Technical University Autonomous Underwater Vehicle Team <br>Istanbul, TR<br>
+                    • ITU AUV Team is an underwater robotics team, that came together <br>to prepare for challenges around the world
+                    such as SUAUVC’20 and RoboSub’20.<br>              
+                  </p>  
+                   <br><br>
+                </section>
+
+        <div style="background-color: rgb(210, 210, 90);">
+            <h3 style="margin: 20px 20px;font-size: 80px;">Schools</h3>
+            <section id="school">
+            <div class="container" >
+                <a target="_blank" href="https://adanabilsem.meb.k12.tr/">
+                    <img src="bilsem.jpg" alt=" BILSEM" class="image">
+                    <div class="overlay">
+                       
+                        
+    
+                         <div class="text"  style="font-size: 10 ;">
+                            <strong>
+                                BILSEM<br>
+                            </strong>
+                            Vizyon:<br> Üstün yeteneklilerin eğitiminde model<br> 
+                            ve lider kurum.<br>
+
+                            Misyon:<br> Ulusal ve evrensel değerlere duyarlı, <br>
+                            araştırmacı, sorun çözme yeteneğine sahip,<br> dürüst,
+                             hoşgörülü, uyumlu, iletişime ve <br>işbirliğine açık,
+                              Atatürk ilke ve inkılâplarına <br>bağlı, yönetim, 
+                              bilim ve sanat alanlarında lider <br>ve geleceği 
+                              yönlendiren bireyler yetiştirmek.</div>
+                     </div>
+                    
+                  </a>
+                
+                    </div> 
+                    <div class="container">
+                        <a target="_blank" href="https://seyhanifl.meb.k12.tr/">
+                        <img src="ifl.jpg" alt="IFL" class="image">
+                            <div class="overlay">
+                            <div class="text">
+                                <strong>
+                                IFL<br>
+                                </strong>
+                                Okulumuz 1990 – 2006 yılları arasında <br>Ayşe Atıl Anadolu Öğretmen Lisesi,<br> 2006 – 2014
+                                tarihleri arasında Adana İMKB<br>  AnadoluÖğretmen Lisesi, 2014 – 2015<br>  tarihleriarasında Seyhan Adana İMKB <br>Anadolu Lisesi, 2015 tarihinden
+                                <br>itibaren Seyhan İMKB Fen  Lisesi<br> olarak hizmete devam etmektedir.   
+                                </div>
+                            </div>  </a>
+                        </div>
+
+            <div class="container">
+                <a target="_blank" href="https://www.itu.edu.tr/">
+                <img src="itü.jpg" alt="ITU" class="image">
+                    <div class="overlay">
+                         <div class="text"><strong>
+                            ITU
+                        </strong>
+                        Vision:To be a global university that <br>pioneers in science, technology and arts.<br>
+                        Mission<br>
+                        The purpose of existence for the Istanbul<br> Technical University is to expand<br> 
+                        the borders of knowledge and its applications<br> in science, technology and art<br>
+                         for contributing to the sustainable <br>
+                        community.</div>
+                  </div>  </a>
+            </div>
+
+        </section>
+        <br><br><br>
+    </div>
+
+
+    <section id="works">
+        <strong>Works</strong>
+        <div class="job">
+            <strong>Sponsorship Coordinator</strong> 
+(Itu ACM Student Chapter) <br>
+• Worked in sponsorship and organization of an algorithm competition named ”AlgoComp 2022” that has over 1000
+participants<br>
+• Moderated online events on Zoom<br>
+• Took part in organizing an orientation event for newcomers to our department<br>
+• Planned technical visits to software companies.<br>
+
+<strong>Software Team Member </strong>
+(ITU Autonomous Underwater Vehicle Team)<br>
+• ITU AUV Team is an underwater robotics team, that came together to prepare for challenges around the world
+such as SUAUVC’20 and RoboSub’20.
+<br><br><br><br><br><br>
+<strong>algoComp’22 <br></strong>
+• Took part in organization of an algorithm based national programming contest that has 1196 participants<br>
+• Provided support for the problems contestants had during the competition<br>
+• Contacted companies and took an active role in the sponsorship process<br>
+<br><br><br>
+
+
+        </div>
+
+
+
+
+
+
+    </section>
+    <section id="communication">
+        <a target="_blank" href="https://www.linkedin.com/in/çağla-mıdıklı">
+            <img src="linke.png" alt="Linkedin" class="logo" style="background: transparent;">
+                <a target="_blank" href="https://www.facebook.com/profile.php?id=1097922553">
+                    <img src="face.png" alt="facebook" class="logo">
+                <a target="_blank" href="https://www.instagram.com/cagla0117/">
+                    <img src="insta.png" alt="instagram" class="logo">
+
+                  <div class="com"><p >
+                        <strong>İletişim Bİlgileri</strong><br>
+                        Çağla Mıdıklı<br>
+                        tel:0507736068<br>
+                    </p></div>  
+                </section>
+    </body>
+
+
