@@ -1,0 +1,60 @@
+body{background: #dadada;}
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.pet{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: black;
+   
+}
+
+h2,h1{
+    font-family: Nunito;
+}
+.glyphicon {
+    font-size: 50px;
+}
+.column{
+    column-count: 2;
+    column-gap: 0px;
+    column-width: 150px;
+    position: relative;
+    float:initial
+
+}
+
+.back{
+  background: #dadada;
+
+  background-repeat: no-repeat;
+  background-size: 550px 600px;
+  padding: 7px 40px;
+  margin: 10px 0px;
+  font-size: 20px;
+  
+}
+
+.photo{
+
+  width: 570px;
+  height: 550px;
+  position: relative;
+  float: right;       
+  margin-top: 40px;
+  
+  margin-right: 60px;
+
+}
